@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# CUDA intermediate files
+*.o
+*.obj
+*.ptx
+*.cubin
+
+# SLURM output
+*.out
+*.err
+
+# Editor / system files
+*.swp
+*.swo
+*.tmp
+*.bak
+.DS_Store
+
+# Generated result images (keep only original inputs)
+img/result_*
+img/*_cpu.png
+img/*_gpu.png
